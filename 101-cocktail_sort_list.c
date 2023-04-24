@@ -1,8 +1,8 @@
 #include "sort.h"
 /**
  * swap - swaps items of alist
- * @i: first item to swap
- * @j: end item to swap
+ * @tmp: first item to swap
+ * @cur: end item to swap
  * @list: doubly linked list
  *
  */
@@ -71,5 +71,5 @@ void cocktail_sort_list(listint_t **list)
 				cur = cur->prev;
 		}
 		cur = cur->next;
-	} while(swapped);
+	} while (swapped);
 }

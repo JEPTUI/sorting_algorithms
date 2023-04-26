@@ -19,6 +19,7 @@ void swap_sort(int *i, int *j)
  * @left: start index
  * @right: end index
  * @size: size of an array
+ * Return: partition index
  */
 int hoare_partition(int *array, int left, int right, size_t size)
 {
